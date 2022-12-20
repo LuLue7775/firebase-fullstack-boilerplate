@@ -1,0 +1,29 @@
+{
+  "name": "admin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev PORT=3002 nodemon ./bin/www",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "buffer": "^5.0.6",
+    "cookie-parser": "~1.4.4",
+    "cross-env": "^7.0.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "elementtree": "^0.1.7",
+    "express": "~4.16.1",
+    "express-minify-html": "^0.12.0",
+    "express-session": "^1.17.2",
+    "firebase-admin": "^10.0.0",
+    "firestore-store": "^2.0.2",
+    "http-errors": "~1.6.3",
+    "iconv-lite": "^0.4.18",
+    "morgan": "~1.9.1",
+    "order-id": "^2.1.2",
+    "serve-favicon": "^2.5.0"
+  }
+}
